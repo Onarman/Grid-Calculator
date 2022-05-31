@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.calc{
+    
+    background-color: lavender;
+    height: 100vh;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 250px;
+    /* height: 50vh; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 48vh;
+    background-color: gray;
+    border-radius: 1rem;
+    
+
+}
+
+.input{
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    margin-left:5%;
+    border: none;
+    background-color: azure;
+    height: 5rem;
+    border-radius: 1rem;
+    text-align: end;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.body{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+    padding: 0.2rem 1rem;
+}
+
+.body :first-child{
+    background-color: brown;
+
+}
+
+.body :nth-child(2){
+    background-color: darkred;
+}
+
+.body :last-child{
+    background-color: cornflowerblue;
+}
+
+.num, .operator,.dot{
+    border-radius: 1rem;
+    border: none;
+    height: 1.8rem;
+    background-color: darkgoldenrod;
+
+   
+}
+
+.dot:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.operator:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.num:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+
+
