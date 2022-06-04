@@ -7,7 +7,7 @@
 }
 .calc{
     
-    background-color: lavender;
+    background-color: rgb(20, 17, 1);
     height: 100vh;
 }
 
@@ -16,11 +16,11 @@
     width: 250px;
     /* height: 50vh; */
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 22rem;
-    background-color: gray;
+    background-color: rgb(42, 39, 39);
     border-radius: 1rem;
     
 
@@ -58,11 +58,11 @@
 }
 
 .body :last-child{
-    background-color: cornflowerblue;
+    background-color: darkgoldenrod;
 }
 
 .num, .operator,.dot{
-    border-radius: 1rem;
+    border-radius: 50%;
     border: none;
     height: 1.8rem;
     background-color: darkgoldenrod;
